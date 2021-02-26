@@ -1,0 +1,1 @@
+Users should import json files into MongoDB according to the picture "MongobDB/Directory_of_DB_collections.png". Note that the collection names should be the same as the json file names.
