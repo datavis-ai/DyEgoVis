@@ -11,11 +11,11 @@ The visualization system can run in Ubuntu or Windows system. It consists of ser
     ```
       pip install -r requirements.txt
     ```
-2. Install MongDB database in your computer.
+2. Install MongDB (a document-oriented database management system) in your computer.
 
 3. Import the json files in the project dirs "MongDB/enron" and "MongDB/tvcg" into your MongDB according to the scheme shown in the picture "MongoDB/Directory_of_DB_collections.png".
 
-5. Run the file "App.py".
+4. Run the file "App.py".
 
 ### Frontend
 1. Install Node.js in your computer.
