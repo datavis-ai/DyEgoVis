@@ -8,9 +8,9 @@ The visualization system can run in Ubuntu or Windows system. It consists of ser
 
 ### Server
 1. To install the dependency packages of the system server, under the project dir "server", run:
-
+    ```
       pip install -r requirements.txt
-
+    ```
 2. Run the file "App.py".
 
 ### Frontend
