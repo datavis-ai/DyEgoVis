@@ -4,7 +4,8 @@ An interactive visualization system that allows users to explore the evolutions 
 Demo video: http://jalamao.top/file/DyEgoVis.mp4
 
 ## Installation Steps
-The visualization system can be installed in Ubuntu or Windows system.
+The visualization system can run in Ubuntu or Windows system. It consists of server and frontend.
+
 ### Server
 1. To install the dependency packages of the system server, under the project dir "server", run:
 
@@ -12,7 +13,8 @@ The visualization system can be installed in Ubuntu or Windows system.
       pip install -r requirements.txt
 
 2. Run the file "app.py".
-###Frontend
+
+### Frontend
 1. Install Node.js.
 
 2. To install the dependency packages of the frontend, under the project dir "frontend", run:
