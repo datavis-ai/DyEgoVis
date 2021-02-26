@@ -7,21 +7,21 @@ Demo video: http://jalamao.top/file/DyEgoVis.mp4
 The visualization system can run in Ubuntu or Windows system. It consists of server and frontend.
 
 ### Server
-1. To install the dependency packages of the system server, under the project dir "server", run:
+1. To install the dependency packages of the system server, under the project dir "server", open the terminal and run the command:
     ```
       pip install -r requirements.txt
     ```
 2. Run the file "App.py".
 
 ### Frontend
-1. Install Node.js.
+1. Install Node.js in your computer.
 
-2. To install the dependency packages of the frontend, under the project dir "frontend", run:
-
+2. To install the dependency packages of the frontend, under the project dir "frontend", open the terminal and run the command:
+  ```
     npm install
-
-3. Under the project dir "frontend", run:
-
+  ```
+3. Under the project dir "frontend", open the terminal and run the command:
+   ```
     sudo npm run dev
-
+   ```
 4. Access the system interface at http://localhost:8080 in your browser.
