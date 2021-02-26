@@ -21,9 +21,9 @@ The visualization system can run in Ubuntu or Windows system. It consists of ser
 1. Install Node.js in your computer.
 
 2. To install the dependency packages of the frontend, under the project dir "frontend", open the terminal and run the command:
-  ```
+   ```
     npm install
-  ```
+   ```
 3. Under the project dir "frontend", open the terminal and run the command:
    ```
     sudo npm run dev
