@@ -1,0 +1,141 @@
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bb9"},"position":"unknown","ego":"m..smith","name":"m..smith"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bba"},"position":"Employee","ego":"errol.mclaughlin","name":"errol.mclaughlin"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bbb"},"position":"Employee","ego":"albert.meyers","name":"albert.meyers"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bbc"},"position":"Vice President","ego":"jane.tholt","name":"jane.tholt"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bbd"},"position":"Vice President","ego":"shelley.corman","name":"shelley.corman"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bbe"},"position":"Manager","ego":"mike.carson","name":"mike.carson"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bbf"},"position":"Trader","ego":"mike.swerzbin","name":"mike.swerzbin"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bc0"},"position":"Vice President","ego":"barry.tycholiz","name":"barry.tycholiz"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bc1"},"position":"unknown","ego":"tom.donohoe","name":"tom.donohoe"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bc2"},"position":"Employee","ego":"dan.hyvl","name":"dan.hyvl"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bc3"},"position":"unknown","ego":"joannie.williamson","name":"joannie.williamson"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bc4"},"position":"Trader","ego":"bill.williams","name":"bill.williams"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bc5"},"position":"Director","ego":"jonathan.mckay","name":"jonathan.mckay"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bc6"},"position":"Manager","ego":"mike.grigsby","name":"mike.grigsby"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bc7"},"position":"Manager","ego":"randall.gay","name":"randall.gay"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bc8"},"position":"CEO","ego":"kenneth.lay","name":"kenneth.lay"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bc9"},"position":"Employee","ego":"phillip.platter","name":"phillip.platter"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bca"},"position":"Employee","ego":"michele.lokay","name":"michele.lokay"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bcb"},"position":"Trader","ego":"eric.bass","name":"eric.bass"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bcc"},"position":"Manager","ego":"daren.farmer","name":"daren.farmer"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bcd"},"position":"Trader","ego":"craig.dean","name":"craig.dean"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bce"},"position":"Employee","ego":"jay.reitmeyer","name":"jay.reitmeyer"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bcf"},"position":"Trader","ego":"charles.weldon","name":"charles.weldon"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bd0"},"position":"Vice President","ego":"hunter.shively","name":"hunter.shively"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bd1"},"position":"CEO","ego":"john.lavorato","name":"john.lavorato"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bd2"},"position":"Employee","ego":"elizabeth.sager","name":"elizabeth.sager"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bd3"},"position":"unknown","ego":"lynn.blair","name":"lynn.blair"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bd4"},"position":"Manager","ego":"john.forney","name":"john.forney"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bd5"},"position":"Employee","ego":"jeff.dasovich","name":"jeff.dasovich"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bd6"},"position":"Trader","ego":"tori.kuykendall","name":"tori.kuykendall"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bd7"},"position":"unknown","ego":"john.griffith","name":"john.griffith"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bd8"},"position":"President","ego":"jeffrey.shankman","name":"jeffrey.shankman"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bd9"},"position":"CEO","ego":"jeff.skilling","name":"jeff.skilling"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bda"},"position":"Vice President","ego":"andy.zipper","name":"andy.zipper"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bdb"},"position":"In House Lawyer","ego":"james.derrick","name":"james.derrick"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bdc"},"position":"Vice President","ego":"james.steffes","name":"james.steffes"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bdd"},"position":"Trader","ego":"paul.thomas","name":"paul.thomas"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bde"},"position":"Trader","ego":"joe.quenet","name":"joe.quenet"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bdf"},"position":"Employee","ego":"kate.symes","name":"kate.symes"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335be0"},"position":"Vice President","ego":"fletcher.sturm","name":"fletcher.sturm"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335be1"},"position":"Director","ego":"matt.motley","name":"matt.motley"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335be2"},"position":"Director","ego":"w..white","name":"w..white"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335be3"},"position":"Employee","ego":"mark.taylor","name":"mark.taylor"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335be4"},"position":"Director","ego":"keith.holst","name":"keith.holst"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335be5"},"position":"Employee","ego":"brad.mckay","name":"brad.mckay"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335be6"},"position":"Employee","ego":"larry.campbell","name":"larry.campbell"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335be7"},"position":"Trader","ego":"ryan.slinger","name":"ryan.slinger"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335be8"},"position":"Employee","ego":"kam.keiser","name":"kam.keiser"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335be9"},"position":"unknown","ego":"andrea.ring","name":"andrea.ring"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bea"},"position":"Trader","ego":"jim.schwieger","name":"jim.schwieger"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335beb"},"position":"Director","ego":"geoff.storey","name":"geoff.storey"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bec"},"position":"unknown","ego":"debra.bailey","name":"debra.bailey"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bed"},"position":"unknown","ego":"mark.whitt","name":"mark.whitt"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bee"},"position":"Manager","ego":"cooper.richey","name":"cooper.richey"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bef"},"position":"unknown","ego":"brenda.whitehead","name":"brenda.whitehead"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bf0"},"position":"Director","ego":"andrew.lewis","name":"andrew.lewis"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bf1"},"position":"Vice President","ego":"rod.hayslett","name":"rod.hayslett"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bf2"},"position":"Vice President","ego":"danny.mccarty","name":"danny.mccarty"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bf3"},"position":"unknown","ego":"tana.jones","name":"tana.jones"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bf4"},"position":"Manager","ego":"rick.buy","name":"rick.buy"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bf5"},"position":"Vice President","ego":"steven.kean","name":"steven.kean"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bf6"},"position":"unknown","ego":"matt.smith","name":"matt.smith"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bf7"},"position":"Employee","ego":"stacy.dickson","name":"stacy.dickson"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bf8"},"position":"Managing Director","ego":"jeffrey.hodge","name":"jeffrey.hodge"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bf9"},"position":"Vice President","ego":"scott.neal","name":"scott.neal"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bfa"},"position":"Director","ego":"frank.ermis","name":"frank.ermis"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bfb"},"position":"Manager","ego":"kim.ward","name":"kim.ward"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bfc"},"position":"unknown","ego":"bill.rapp","name":"bill.rapp"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bfd"},"position":"Employee","ego":"sally.beck","name":"sally.beck"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bfe"},"position":"Vice President","ego":"richard.sanders","name":"richard.sanders"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335bff"},"position":"Director","ego":"mike.maggi","name":"mike.maggi"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c00"},"position":"President","ego":"greg.whalley","name":"greg.whalley"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c01"},"position":"unknown","ego":"joe.parks","name":"joe.parks"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c02"},"position":"Trader","ego":"kevin.ruscitti","name":"kevin.ruscitti"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c03"},"position":"unknown","ego":"debra.perlingiere","name":"debra.perlingiere"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c04"},"position":"unknown","ego":"liz.taylor","name":"liz.taylor"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c05"},"position":"Employee","ego":"richard.ring","name":"richard.ring"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c06"},"position":"unknown","ego":"vladi.pimenov","name":"vladi.pimenov"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c07"},"position":"Manager","ego":"mark.mcconnell","name":"mark.mcconnell"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c08"},"position":"Director","ego":"kevin.hyatt","name":"kevin.hyatt"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c09"},"position":"Director","ego":"patrice.mims","name":"patrice.mims"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c0a"},"position":"Trader","ego":"eric.saibi","name":"eric.saibi"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c0b"},"position":"unknown","ego":"phillip.love","name":"phillip.love"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c0c"},"position":"unknown","ego":"darrell.schoolcraft","name":"darrell.schoolcraft"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c0d"},"position":"Employee","ego":"juan.hernandez","name":"juan.hernandez"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c0e"},"position":"Manager","ego":"clint.dean","name":"clint.dean"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c0f"},"position":"unknown","ego":"susan.scott","name":"susan.scott"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c10"},"position":"Manager","ego":"chris.dorland","name":"chris.dorland"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c11"},"position":"President","ego":"mike.mcconnell","name":"mike.mcconnell"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c12"},"position":"Employee","ego":"theresa.staab","name":"theresa.staab"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c13"},"position":"unknown","ego":"kimberly.watson","name":"kimberly.watson"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c14"},"position":"Vice President","ego":"drew.fossum","name":"drew.fossum"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c15"},"position":"unknown","ego":"monique.sanchez","name":"monique.sanchez"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c16"},"position":"unknown","ego":"marie.heard","name":"marie.heard"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c17"},"position":"Vice President","ego":"joe.stepenovitch","name":"joe.stepenovitch"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c18"},"position":"Vice President","ego":"kevin.presto","name":"kevin.presto"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c19"},"position":"unknown","ego":"dutch.quigley","name":"dutch.quigley"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c1a"},"position":"CEO","ego":"david.delainey","name":"david.delainey"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c1b"},"position":"unknown","ego":"rob.gay","name":"rob.gay"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c1c"},"position":"Vice President","ego":"john.zufferli","name":"john.zufferli"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c1d"},"position":"Vice President","ego":"thomas.martin","name":"thomas.martin"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c1e"},"position":"Employee","ego":"michelle.cash","name":"michelle.cash"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c1f"},"position":"Employee","ego":"kay.mann","name":"kay.mann"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c20"},"position":"Director","ego":"sandra.brawner","name":"sandra.brawner"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c21"},"position":"unknown","ego":"jason.williams","name":"jason.williams"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c22"},"position":"Trader","ego":"don.baughman","name":"don.baughman"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c23"},"position":"Employee","ego":"matthew.lenhart","name":"matthew.lenhart"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c24"},"position":"Employee","ego":"benjamin.rogers","name":"benjamin.rogers"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c25"},"position":"Director","ego":"larry.may","name":"larry.may"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c26"},"position":"Manager","ego":"teb.lokey","name":"teb.lokey"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c27"},"position":"unknown","ego":"j.harris","name":"j.harris"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c28"},"position":"Employee","ego":"lindy.donoho","name":"lindy.donoho"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c29"},"position":"Director","ego":"robert.benson","name":"robert.benson"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c2a"},"position":"Managing Director","ego":"mark.e.haedicke","name":"mark.e.haedicke"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c2b"},"position":"Manager","ego":"jeff.king","name":"jeff.king"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c2c"},"position":"unknown","ego":"lisa.gang","name":"lisa.gang"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c2d"},"position":"Employee","ego":"judy.townsend","name":"judy.townsend"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c2e"},"position":"President","ego":"louise.kitchen","name":"louise.kitchen"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c2f"},"position":"Employee","ego":"chris.germany","name":"chris.germany"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c30"},"position":"Manager","ego":"vince.kaminski","name":"vince.kaminski"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c31"},"position":"unknown","ego":"judy.hernandez","name":"judy.hernandez"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c32"},"position":"Manager","ego":"martin.cuilla","name":"martin.cuilla"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c33"},"position":"President","ego":"stanley.horton","name":"stanley.horton"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c34"},"position":"Employee","ego":"darron.giron","name":"darron.giron"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c35"},"position":"Employee","ego":"susan.pereira","name":"susan.pereira"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c36"},"position":"unknown","ego":"sara.shackleton","name":"sara.shackleton"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c37"},"position":"Employee","ego":"stephanie.panus","name":"stephanie.panus"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c38"},"position":"Vice President","ego":"dana.davis","name":"dana.davis"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c39"},"position":"Trader","ego":"diana.scholtes","name":"diana.scholtes"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c3a"},"position":"unknown","ego":"steven.south","name":"steven.south"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c3b"},"position":"Employee","ego":"cara.semperger","name":"cara.semperger"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c3c"},"position":"Employee","ego":"peter.keavey","name":"peter.keavey"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c3d"},"position":"Employee","ego":"t..lucci","name":"t..lucci"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c3e"},"position":"unknown","ego":"jason.wolfe","name":"jason.wolfe"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c3f"},"position":"Employee","ego":"tracy.geaccone","name":"tracy.geaccone"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c40"},"position":"Vice President","ego":"richard.shapiro","name":"richard.shapiro"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c41"},"position":"Employee","ego":"holden.salisbury","name":"holden.salisbury"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c42"},"position":"Employee","ego":"monika.causholli","name":"monika.causholli"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c43"},"position":"unknown","ego":"gerald.nemec","name":"gerald.nemec"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c44"},"position":"Employee","ego":"geir.solberg","name":"geir.solberg"}
+{"_id":{"$oid":"5e79bc0d0c95b3e2c0335c45"},"position":"unknown","ego":"scott.hendrickson","name":"scott.hendrickson"}
