@@ -1,0 +1,721 @@
+/*App.vue*/
+body{
+  font-family: Arial,Helvetica,sans-serif;
+}
+.entire-sys{
+  margin-top: -5px;
+}
+/*.head-sys{
+  margin-bottom: 1px;
+}*/
+.body-sys{
+ margin-top: -2px;
+}
+#egonet-sequences-box{
+    width: 100%;
+    height: 892px;  /* 892px 1020px;*/
+    /*display: block;*/
+    position:relative;
+    border: 1px solid #aaaaaa;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#show-egonet-seq{
+  width: 100%;
+  height: 800px; /* 680px */
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.app-setting{
+    display: flex;
+    /*margin-top: 0px;*/
+    /*margin-bottom: 7px;*/
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    /*border: 1px solid #aaa;*/
+    /*background: #ccc url(../img/toolBoxPg.png) 50% 50% repeat-x;*/
+    /*color: #222;*/
+    /*font-weight: bold;*/
+    /*height: 40px;*/
+    width: 80%;
+}
+
+.time-line-setting{
+	margin-left: 10px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+/*selectDataset.vue*/
+#select-dataset .el-select{
+  width: 100px;
+}
+.el-select-dropdown__item{
+  font-size: 13px;
+}
+#select-dataset{
+  margin: 0px 2px 0px 2px;
+}
+
+/*timeLineSlice.vue*/
+/* set the size of the slider */
+#time-slider{	
+	width: 110px;
+	height: 10px;
+	margin-top: 3px;
+}
+.slice-class{
+	display: flex;
+}
+#time-line-slice{
+	display: inline-block;
+	text-align: center;
+	justify-content:center;
+	align-items:center;
+}
+
+#time-slider .noUi-base{
+  height: 10px;
+  border-top-right-radius: 2px;    
+  border-top-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+
+  color: rgb(34, 34, 34);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(170, 170, 170);
+  border-image: initial;
+  background: url(../img/sliderPg.png) 50% 50% repeat-x rgb(255, 255, 255);
+}
+#time-slider .noUi-handle:before, #time-slider .noUi-handle:after {    
+    display: none;    
+}
+#time-line-slice .noUi-horizontal .noUi-handle {
+    width: 15px;
+    height: 18px;
+    right: -7px;
+    top: -6px;
+}
+#time-line-slice .noUi-tooltip {
+  display: none;
+}
+#time-line-slice .noUi-active .noUi-tooltip {
+  display: block;
+}
+#reflesh-block{
+	width: 20px;
+	height: 20px;
+	margin-left: 0px;
+	background-color: #fff;	
+	border-radius: 2px 2px 2px 2px;
+  border: 1px solid #aaa;
+}
+#time-line-slice{
+  margin-left: 10px;
+}
+#distance-select{
+  margin-left: 0px;
+}
+#slice-label{
+  text-align: center;
+  font-size: 8px;
+}
+#time-line-slice .noUi-connect {
+    background: #e4e4e4;
+}
+.widget-box{
+    border: 1px solid #d3d3d3;
+    background: rgb(230, 230, 230) url(../img/widgetBoxPg.png) 50% 50% repeat-x;
+    font-weight: normal;
+    color: #555;
+}
+/*滚动条样式设置*/
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #d3d3d3;
+}
+::-webkit-scrollbar-track {
+    background: #f0f0f0;
+    border-radius: 10px;
+}
+/*时间轴字体样式*/
+#svg-time-line text{
+  font: 12px sans-serif;    
+}
+/*滚动条*/
+#dyegonet-time-line{
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+#dyegonet-control-view {
+    position:absolute;
+    float: right;
+    width: 125px;
+    display: inline;
+    border-left: 1px solid #eeeeee;
+    /* height: 100%; */
+}
+.dyegonetContextMenu{
+  min-width: 9em;
+}
+/*timeCurveView*/
+#time-curve-view{
+  margin: 2px 0px 0px 0px;
+  width: 525px;
+  height: 388px;
+  border: 1px solid #aaaaaa;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  position:relative;
+}
+#tool-for-timecurve {  
+  width: 60px;
+  height:18px;
+  position:absolute;
+  top:2px;
+  right:2px;
+  border: 1px solid #aaaaaa;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  display: flex;
+  justify-content: space-around;
+}
+#color-legend{
+  width: 100%;
+  height: 20px;
+  font-size: 10px;
+}
+/* searchBox */
+#ego-search-box .el-input-group__prepend{
+  width: 40px;
+}
+.select-field .el-input__inner{
+  padding: 0px 0px 0px 5px;
+}
+.input-box-keywords > div > .el-input__inner{
+  width: 140px;
+}
+.input-box-keywords > .el-input-group__prepend{
+  width: 20px;
+}
+.submit-search-keywords{
+  /*padding: 0px 0px 0px 0px;*/
+}
+#ego-search-box .el-input-group__append{
+  padding: 0px 10px 0px 10px;
+}
+#ego-search-box #search-result-box .el-table{
+  max-height: 240px;
+   
+}
+#ego-search-box #search-result-box{
+  max-height: 200px;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.searchResultContextMenu{
+  max-width: 250px;
+}
+.searchResultContextMenu .context-menu-item{
+  padding: 0px 0px 0px 2px;
+  margin: 0px 2px 4px 2px;
+}
+/*right-click*/
+
+.context-menu-list li{
+  font-size: 14px;
+}
+.dyegonetContextMenu .context-menu-item{
+  padding: 0px 0px 4px 2px;
+}
+#is-show-lines{
+  width: 20px;
+  height: 20px;
+  border: 1px solid #aaaaaa;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+}
+
+/*egoNetSequences.vue*/
+#dyegonet-view{
+  position:relative;
+}
+#tool-for-egonetseq{
+  width: 60px;
+  height:18px;
+  position:absolute;
+  top:2px;
+  right:2px;
+  border: 1px solid #aaaaaa;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  display: flex;
+  justify-content: space-around;
+}
+/*overviewtimestep*/
+#egonets-time-step-box{
+  width: 100%;  
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.each-dyegonet .nodes .node text{
+  pointer-events: none;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+}
+#all-dyegonets .each-dyegonet .slct-ego{
+  font-size: 12px;
+}
+#system-interface-box .splitpanes.default-theme .splitpanes__pane {
+    background-color: #ffffff;
+}
+#system-interface-box .default-theme.splitpanes--vertical>.splitpanes__splitter, .default-theme .splitpanes--vertical>.splitpanes__splitter {
+    width: 4px;
+    border-left: 0px solid #eee;
+    margin-left: -1px;
+}
+#system-interface-box .default-theme.splitpanes--vertical>.splitpanes__splitter:after, .default-theme .splitpanes--vertical>.splitpanes__splitter:after {
+    margin-left: 0px;
+}
+#system-interface-box .splitpanes.default-theme .splitpanes__splitter:after, .splitpanes.default-theme .splitpanes__splitter:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 22%;
+    background-color: rgba(0,0,0,.15);
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+}
+.md-name{
+  font-size: 13px;
+  margin: 0px 2px 0px 0px;
+}
+#method-norm-select, #method-rd-select, #distance-select{
+  font: 400 13px Arial;
+}
+#select-dataset .el-input__inner{
+  font-size: 13px;
+  border-radius: 2px;
+}
+#filter-egos-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  margin-left: 0px;
+  background-color: #fff; 
+  border-radius: 2px 2px 2px 2px;
+  border: 1px solid #aaa;
+}
+#overview-for-filter{
+  margin: 0px 10px 0px 10px;
+}
+#overview-for-filter .feature-name{
+  font-size: 13px;
+  margin: 0px 0px 0px -2px;
+}
+#overview-for-filter .el-slider__runway{
+  margin: 5px 0px 1px 0px;
+}
+#overview-for-filter .el-slider__button{
+  width: 8px;
+  height: 8px;
+  border: 1px solid #409EFF;
+  background-color: #FFF;
+}
+#overview-for-filter .el-slider__bar{
+  height: 5px;
+  background-color: #409EFF;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;  
+}
+#filter-ok{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:30px;
+  height: 15px;
+  font-size: 13px;
+  font-weight: 500;
+  background-color: #409EFF;
+  border-radius: 1px 1px 1px 1px;
+  cursor:default;
+}
+#check-filterinfo{
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jBox-Modal.jBox-closeButton-title .jBox-title{
+  font-size: 14px;
+  font-weight: 600;
+}
+#overview-dyegonet-info .ftbar {
+    fill: #253494;
+    /*stroke: #252525;*/
+    border: 1px solid #252525;
+}
+#overview-dyegonet-info{
+  cursor: pointer;
+}
+#overview-dyegonet-info .dt-ft-tag{
+  display: inline;
+  font-size: 13px;
+  margin: 0px 2px 0px 2px;
+}
+#overview-dyegonet-info .tooltip {
+    position: relative;
+    display: inline-block;
+    /*border-bottom: 1px dotted black;*/
+}
+ 
+#overview-dyegonet-info .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #252525;
+    opacity: 0.8;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;  
+    position: absolute;
+    z-index: 2000;
+}
+#overview-dyegonet-info .tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+.egonet-infotext{
+  font-weight: 600;
+  font-size: 13px;
+  opacity: 0.8;
+}
+#jBox-dyegonetinfo .jBox-container{
+  background-color:rgba(250,250,250,0.2); 
+  filter:Alpha(opacity=40);
+}
+.ego-if-sp{
+  font-weight: 500;
+  font-size: 13px;
+  opacity: 1;
+}
+#jBoxFilter-overview .jBox-container{
+  background-color:rgba(250,250,250,0.8); 
+  filter:Alpha(opacity=80);
+}
+#jBoxLegend-state .jBox-container{
+  background-color:rgba(250,250,250,0.2); 
+  filter:Alpha(opacity=40);
+}
+#jBoxLegend-overview .jBox-container{
+  background-color:rgba(250,250,250,0.2); 
+  filter:Alpha(opacity=40);
+}
+#jBox-egonetsnpinfo .jBox-container{
+  background-color:rgba(250,250,250,0.2); 
+  filter:Alpha(opacity=40);
+}
+#jBox-egonetstinfo .jBox-container{
+  background-color:rgba(250,250,250,0.2); 
+  filter:Alpha(opacity=40);
+}
+#jBox-nodeinfo .jBox-container{
+  background-color:rgba(250,250,250,0.2); 
+  filter:Alpha(opacity=40);
+}
+#jBox-stackedArea .jBox-container{
+  background-color:rgba(250,250,250,0.8); 
+  filter:Alpha(opacity=80);
+}
+#jBox-dyegonetinfo .jBox-title div:first-child{
+  width: 170px;
+}
+#jBox-egonetsnpinfo .jBox-title div:first-child{
+  width: 170px;
+} 
+#timecurve-legend-box .lgd-text{
+  font-size: 13px;
+  font-weight: 500;
+}
+#timecurve-legend-box{
+    max-width: 160px;
+    height: auto;    
+}
+#timecurve-legend-box .color-legend-item{
+  white-space: nowrap;
+  position: relative;
+  display: inline-block;
+  top: 1px;
+  padding-bottom: 1px;
+  margin: 0px 0px 0px 2px;
+}
+#overview-egonetsnp-info{
+  cursor: pointer;
+}
+#overview-egonetsnp-info .dt-ft-tag{
+  display: inline;
+  font-size: 13px;
+  margin: 0px 2px 0px 2px;
+}
+#overview-egonetsnp-info .tooltip {
+    position: relative;
+    display: inline-block;
+    /*border-bottom: 1px dotted black;*/
+}
+ 
+#overview-egonetsnp-info .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #252525;
+    opacity: 0.8;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;  
+    position: absolute;
+    z-index: 2000;
+}
+#overview-egonetsnp-info .tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+#overview-egonetst-info{
+  cursor: pointer;
+}
+#overview-egonetst-info .dt-ft-tag{
+  display: inline;
+  font-size: 13px;
+  margin: 0px 2px 0px 2px;
+}
+#overview-egonetst-info .tooltip {
+    position: relative;
+    display: inline-block;
+    /*border-bottom: 1px dotted black;*/
+}
+ 
+#overview-egonetst-info .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #252525;
+    opacity: 0.8;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;  
+    position: absolute;
+    z-index: 2000;
+}
+#overview-egonetst-info .tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+/*#overview-egonetnodes-info*/
+#overview-egonetnodes-info{
+  cursor: pointer;
+}
+#overview-egonetnodes-info .dt-ft-tag{
+  display: inline;
+  font-size: 13px;
+  margin: 0px 2px 0px 2px;
+}
+#overview-egonetnodes-info .tooltip {
+    position: relative;
+    display: inline-block;
+    /*border-bottom: 1px dotted black;*/
+}
+ 
+#overview-egonetnodes-info .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #252525;
+    opacity: 0.8;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;  
+    position: absolute;
+    z-index: 2000;
+}
+#overview-egonetnodes-info .tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+.ego-info-div{
+  margin: 0px 0px 0px 2px;
+}
+#colormap-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  margin-left: 0px;
+  background-color: #fff; 
+  border-radius: 2px 2px 2px 2px;
+  border: 1px solid #aaa;
+}
+#cmp-ok{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:30px;
+  height: 15px;
+  font-size: 13px;
+  font-weight: 500;
+  background-color: #409EFF;
+  border-radius: 1px 1px 1px 1px;
+  cursor:default;
+}
+#check-cmpinfo{
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#map-attr-color #select-arr, #map-attr-color  #select-color{
+  font-size: 13px;
+}
+#jBoxColorEncode .jBox-container{
+  background-color:rgba(250,250,250,0.8); 
+  filter:Alpha(opacity=80);
+}
+#jBoxColorEncode .jBox-title div:first-child{
+  width: 210px;
+}
+#map-attr-color .el-radio__inner{
+  width: 10px;
+  height: 10px;
+}
+#map-attr-color .el-radio{
+  margin-right: 10px;
+}
+#map-attr-color .el-radio__label {
+    font-size: 13px;
+    padding-left: 4px;
+}
+#map-attr-color .cl-dscp{
+ font-weight: 550;
+}
+.color-mpdv{
+  margin: 0px 0px 0px 2px;
+}
+.el-input-group__append, .el-input-group__prepend{
+  border-radius: 2px;
+}
+#navg-div{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0px;
+  margin-bottom: 7px;
+  /*flex-direction: row;*/
+  /*flex-wrap: nowrap;*/
+  /*justify-content: flex-start;*/
+  /*align-items: center;*/
+  border: 1px solid #aaa;
+  background: #ccc url(../img/toolBoxPg.png) 50% 50% repeat-x;
+  color: #222;
+  font-weight: bold;
+  height: 40px;
+}
+#us-help{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 2px 0px 0px;
+}
+.rt-text{
+  font-size: 14px;
+  font-weight: 550;
+}
+#legend-div-bx{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  margin-left: 0px;
+  background-color: #fff; 
+  border-radius: 2px 2px 2px 2px;
+  border: 1px solid #aaa;
+}
+#search-result-box .el-table__header-wrapper{
+  font-size: 13px;
+}
+#search-result-box .el-table__body-wrapper tbody{
+  font-size: 13px;
+  font-weight: 500;
+}
+#search-result-box .el-table--medium td, #search-result-box .el-table--medium th {
+    padding: 4px 0;
+}
+#slct-ft-stg{
+  margin: 0px 2px 0px 0px;
+}
+#slct-ft-stg .el-input__icon{
+  width: 15px;
+}
+#stack-nav-box{
+  display: flex;
+  justify-content: space-between;
+}
+#stack-nav-box .el-input{
+  width: 80px;
+  /*border-radius: 0px 0px 0px 0px;*/
+}
+#stack-nav-box .el-input--suffix .el-input__inner {
+    padding-right: 1px;
+    padding-left: 1px;
+}
+#stack-nav-box .el-input__inner{
+  font-size: 12px;
+  border-radius: 2px;
+  height: 20px;
+  margin: 2px 0px 0px 0px;  
+}
+#stack-nav-box .el-input__suffix{
+  padding: 4px 0px 0px 0px;
+}
+.el-select-dropdown__item {
+    font-size: 13px;
+    padding: 0px 2px 2px 2px;
+    height: 20px;
+    line-height: 20px;
+}
+#stacked-g-box{
+  cursor: pointer;
+}
+
+/* 以下为了截图而暂时设定CSS*/
+
+
+/*#jBoxColorEncode .jBox-container{
+  background-color:rgba(250,250,250,1); 
+  filter:Alpha(opacity=100);
+}*/
