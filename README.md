@@ -1,7 +1,7 @@
 ## DyEgoVis
 An interactive visualization system that allows users to explore the evolutions of dynamic ego-networks at the three analysis levels: global level, local level and individual level. 
 
-Demo video: http://jalamao.top/file/DyEgoVis.mp4
+Demo video: see the file "dyegovis_Demo.mp4"
 
 ## Installation Steps
 The visualization system can run in Ubuntu or Windows system. It consists of server and frontend.
